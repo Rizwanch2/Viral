@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`http://fubhubviral4367.great-site.net` + encodeURI(path as string)
+					`http://fubhubviral4367.great-site.net/` + encodeURI(path as string)
 				}`,
 			},
 		};
